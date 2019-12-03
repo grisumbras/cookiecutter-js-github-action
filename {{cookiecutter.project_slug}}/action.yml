@@ -1,0 +1,17 @@
+name: {{cookiecutter.project_slug}}
+author: {{cookiecutter.full_name}} <{{cookiecutter.email}}>
+description: {{cookiecutter.project_description}}
+branding:
+  icon: square
+  color: gray-dark
+inputs:
+  first:
+    description: First input
+    required: true
+    default: one
+outputs:
+    out:
+      description: An output
+runs:
+  using: node12
+  main: main.js

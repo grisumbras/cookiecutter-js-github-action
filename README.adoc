@@ -1,0 +1,26 @@
+= cookiecutter-js-github-action
+
+image:https://github.com/grisumbras/cookiecutter-js-github-action/workflows/Build/badge.svg?branch=master[Build status,link=https://github.com/grisumbras/cookiecutter-js-github-action/actions]
+
+____
+Cookiecutter template for JavaScript Github Action
+____
+
+== Install
+Cookiecutter can automatically pull templates from GitHub, see <<Usage>>.
+
+== Usage
+
+[source,shell]
+----
+$ cookiecutter gh:grisumbras/cookiecutter-js-github-action
+----
+
+== Maintainer
+Dmitry Arkhipov <grisumbras@gmail.com>
+
+== Contributing
+Patches welcome!
+
+== License
+link:LICENSE[BSL-1.0] (C) 2019 Dmitry Arkhipov

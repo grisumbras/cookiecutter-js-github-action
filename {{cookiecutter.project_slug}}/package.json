@@ -1,0 +1,13 @@
+{ "name": "{{cookiecutter.project_slug}}"
+, "version": "{{cookiecutter.project_version}}"
+, "description": "{{cookiecutter.project_description}}"
+, "main": "main.js"
+, "author": "{{cookiecutter.full_name}} <{{cookiecutter.email}}>"
+, "license": "BSL-1.0"
+, "scripts": { "test": "jest" }
+, "dependencies":
+    { "@actions/core": "^1.1.1"
+    , "@actions/exec": "^1.0.1"
+    , "jest": "^24.9.0"
+    }
+}

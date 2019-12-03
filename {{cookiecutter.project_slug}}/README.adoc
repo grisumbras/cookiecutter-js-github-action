@@ -1,0 +1,35 @@
+= {{cookiecutter.project_name}}
+{%- if cookiecutter.project_name != cookiecutter.project_slug %} _({{cookiecutter.project_slug}})_{% endif %}
+:toc: preamble
+
+image:https://github.com/grisumbras/{{cookiecutter.project_slug}}/workflows/Build/badge.svg?branch=master[Build status,link=https://github.com/grisumbras/{{cookiecutter.project_slug}}/actions]
+
+____
+{{cookiecutter.project_description}}
+____
+
+== Usage
+
+Example usage:
+
+[source,yaml]
+----
+uses: {{cookiecutter.github_username}}/{{cookiecutter.project_slug}}@latest
+----
+
+=== Inputs
+
+first:: *(Required)* First input.
+
+=== Outputs
+
+out:: An output.
+
+== Maintainer
+{{cookiecutter.full_name}} <{{cookiecutter.email}}>
+
+== Contributing
+Patches welcome!
+
+== License
+link:LICENSE[BSL-1.0] (C) {%now 'local', '%Y'%} {{cookiecutter.full_name}}
