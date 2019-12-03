@@ -1,7 +1,5 @@
 = cookiecutter-js-github-action
 
-image:https://github.com/grisumbras/cookiecutter-js-github-action/workflows/Build/badge.svg?branch=master[Build status,link=https://github.com/grisumbras/cookiecutter-js-github-action/actions]
-
 ____
 Cookiecutter template for JavaScript Github Action
 ____
