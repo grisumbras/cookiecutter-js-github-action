@@ -2,7 +2,8 @@
 {%- if cookiecutter.project_name != cookiecutter.project_slug %} _({{cookiecutter.project_slug}})_{% endif %}
 :toc: preamble
 
-image:https://github.com/grisumbras/{{cookiecutter.project_slug}}/workflows/Build/badge.svg?branch=master[Build status,link=https://github.com/grisumbras/{{cookiecutter.project_slug}}/actions]
+[link=https://github.com/grisumbras/{{cookiecutter.project_slug}}/actions]
+image::https://github.com/grisumbras/{{cookiecutter.project_slug}}/workflows/Build/badge.svg?branch=master[Build status]
 
 ____
 {{cookiecutter.project_description}}
