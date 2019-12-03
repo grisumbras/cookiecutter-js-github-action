@@ -37,9 +37,10 @@ jobs:
           remote_repo="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git remote add origin "$remote_repo"
 
-          git add --all
+          git add --all --force *
           COMMIT_MESSAGE="Automated deployment: $(date -u) $GITHUB_SHA"
           git commit -m "$COMMIT_MESSAGE" | true
+
           git push origin "$remote_branch" --force
         env:
           {% raw -%}
